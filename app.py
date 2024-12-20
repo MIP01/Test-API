@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, jsonify 
 from flask_cors import CORS
 from route.user_routes import user_bp
 from route.bangun_routes import bangun_bp
@@ -31,5 +31,5 @@ app.register_blueprint(film_bp, url_prefix='/api/v1')
 app.register_blueprint(pesan_bp, url_prefix='/api/v1')
 
 # gunakan saat local development
-#if __name__ == '__main__':
-    #app.run(port=5000)
+if __name__ == '__main__':
+    app.run(port=5000)
