@@ -22,12 +22,11 @@ def home():
     return jsonify({
         "message": "Welcome to the Test_API!",
         "API_documentation": "https://documenter.getpostman.com/view/24280418/2sAYJ3DMC9"
-        "available_routes": {
+        "available_routes":
             "/api/v1/users": "User management endpoints",
             "/api/v1/bangun": "Bangun datar endpoints",
             "/api/v1/film": "Film endpoints",
             "/api/v1/pesan": "Feedback endpoints"
-        }
     })
 
 #Regis route
