@@ -22,11 +22,6 @@ def home():
     return jsonify({
         "message": "Welcome to the Test_API!",
         "API_documentation": "https://documenter.getpostman.com/view/24280418/2sAYJ3DMC9"
-        "available_routes":
-            "/api/v1/users",
-            "/api/v1/bangun",
-            "/api/v1/film",
-            "/api/v1/pesan"
     })
 
 #Regis route
